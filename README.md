@@ -16,11 +16,11 @@ Unfortunately, this plug-in will __not__ work on FireFox. This is an issue with 
 
 ## Step 01:
 
-Download a .zip of the plug-in and save the file.
+Download a .zip of the plug-in and save the file to your project folder.
 
 ## Step 02:
 
-Add the "donut.js" file to the folder containing your other JavaScript files. Add the "donut.css" file to the folder containing your other CSS files. Copy all images from the plug-in's images folder to the folder containing your site's images.
+Copy the "donut.js" file to the folder containing your other JavaScript files. Copy the "donut.css" file to the folder containing your other CSS files. Copy all images from the plug-in's images folder to the folder containing your site's images.
 
 ## Step 03:
 
