@@ -1,0 +1,39 @@
+<h1 id="d-oh-a-donut-y-plug-in">D&#39;Oh! A Donut-y Plug-In</h1>
+<p>Always dreamed of having donuts rain down on your website with the click of a button? Well, here you go!</p>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="browser-support">Browser Support</h3>
+<p>Unfortunately, this plug-in will <strong>not</strong> work on FireFox. This is an issue with the jQuery CDN and I am unsure on how this can be fixed. Hopefully it will soon! However, the plug-in works perfectly on both Safari and Chrome browsers. </p>
+<h3 id="what-you-will-need-">What you will need:</h3>
+<ul>
+<li>A URL to the jQuery CDN: [<a href="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js</a>]</li>
+<li>Separate folders for both your stylesheets and JavaScript files</li>
+<li>A working knowledge of HTML, CSS, and JavaScript/jQuery</li>
+</ul>
+<h2 id="step-01-">Step 01:</h2>
+<p>Download a .zip of the plug-in and save the file to your project folder.</p>
+<h2 id="step-02-">Step 02:</h2>
+<p>Copy the &quot;donut.js&quot; file to the folder containing your other JavaScript files. Copy the &quot;donut.css&quot; file to the folder containing your other CSS files. Copy all images from the plug-in&#39;s images folder to the folder containing your site&#39;s images.</p>
+<h2 id="step-03-">Step 03:</h2>
+<p>Between the head tags of your HTML file, but after the link tag to your main CSS file, create another link tag leading to the &quot;donut.css&quot; file. Before the closing body tag (but after your main HTML code), include the three following source links in script tags:</p>
+<ul>
+<li>A link to your jQuery CDN (if not included already)</li>
+<li>A link to your main JavaScript file (if not included already)</li>
+<li>A link to the &quot;donut.js&quot; file</li>
+</ul>
+<h2 id="step-04-">Step 04:</h2>
+<p>Copy the button tag from the &quot;example.html&quot; file and paste at the end of your own HTML page, before the script and closing body tags.</p>
+<h2 id="step-05-">Step 05:</h2>
+<p>From the &quot;main.js&quot; file included with the plug-in, copy and paste line 2 into the function that calls your JavaScript, inside your project&#39;s main JavaScript file. Example:</p>
+<pre><code class="lang-javascript">$(function(){
+    bookApp.init(); //This is calling the main file&#39;s script
+    $(&#39;button&#39;).donutRun(); //This is calling the plug-in script
+});
+</code></pre>
+<h2 id="customization">Customization</h2>
+<ul>
+<li><p>Replace the donut image files with your own! In line 14 of the &quot;donut.js&quot; file, change the image source to your files&#39; names. Make sure the file names are similar (i.e. cupcake-01, cupcake-02, etc.) and form some sort of sequence (i.e. red, yellow, green, 1, 2, 3, etc.). In the donutClass variable, change the colour strings to match the sequence of your files. Do not alter the &quot;randDonut[i]&quot; value since this will randomize the sequence of the images each time they fall down the page. Make sure the images you use are transparent .png files.</p>
+</li>
+<li><p>Alter the speed of the images! In the &quot;donut.css&quot; file, under the &quot;Donut Speeds and Indexes&quot; section, feel free to alter the speed of the images using the webkit-animations provided. I recommend staying with speeds between 2.5 and 9 seconds.</p>
+</li>
+</ul>
+<p>Enjoy! Feel free to fork this and change things around!</p>

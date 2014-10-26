@@ -62,8 +62,7 @@ button:hover {
 
 /* ----- ANIMATION ----- */
 
-@-webkit-keyframes donut0,
-@-moz-keyframes donut0 {
+@-webkit-keyframes donut0 {
 	0% {
 		top: -30%;
 		left: 0%;
@@ -74,8 +73,7 @@ button:hover {
 	}
 }
 
-@-webkit-keyframes donut1,
-@-moz-keyframes donut1 {
+@-webkit-keyframes donut1 {
 	0% {
 		top: -30%;
 		left: 10%;
@@ -86,8 +84,7 @@ button:hover {
 	}
 }
 
-@-webkit-keyframes donut2,
-@-moz-keyframes donut2 {
+@-webkit-keyframes donut2 {
 	0% {
 		top: -30%;
 		left: 20%;
@@ -98,8 +95,7 @@ button:hover {
 	}
 }
 
-@-webkit-keyframes donut3,
-@-moz-keyframes donut3 {
+@-webkit-keyframes donut3 {
 	0% {
 		top: -30%;
 		left: 30%;
@@ -110,8 +106,7 @@ button:hover {
 	}
 }
 
-@-webkit-keyframes donut4,
-@-moz-keyframes donut4 {
+@-webkit-keyframes donut4 {
 	0% {
 		top: -30%;
 		left: 40%;
@@ -122,8 +117,7 @@ button:hover {
 	}
 }
 
-@-webkit-keyframes donut5,
-@-moz-keyframes donut5 {
+@-webkit-keyframes donut5 {
 	0% {
 		top: -30%;
 		left: 50%;
@@ -134,8 +128,7 @@ button:hover {
 	}
 }
 
-@-webkit-keyframes donut6,
-@-moz-keyframes donut6 {
+@-webkit-keyframes donut6 {
 	0% {
 		top: -30%;
 		left: 60%;
@@ -146,8 +139,7 @@ button:hover {
 	}
 }
 
-@-webkit-keyframes donut7,
-@-moz-keyframes donut7 {
+@-webkit-keyframes donut7 {
 	0% {
 		top: -30%;
 		left: 70%;
@@ -158,8 +150,7 @@ button:hover {
 	}
 }
 
-@-webkit-keyframes donut8,
-@-moz-keyframes donut8 {
+@-webkit-keyframes donut8 {
 	0% {
 		top: -30%;
 		left: 80%;
@@ -170,8 +161,7 @@ button:hover {
 	}
 }
 
-@-webkit-keyframes donut9,
-@-moz-keyframes donut9 {
+@-webkit-keyframes donut9 {
 	0% {
 		top: -30%;
 		left: 90%;
