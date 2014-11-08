@@ -6,7 +6,7 @@ Always dreamed of having donuts rain down on your website with the click of a bu
 
 ### Browser Support
 
-Firefox issues are fixed now! This plug-in should work on Chrome, Firefox, and IE. Let me know if things do not work and I'll try to fix it!
+Firefox issues are fixed now! This plug-in should work on Chrome, Firefox, and Safari. Let me know if things do not work and I'll try to fix it!
 
 ### What you will need:
 
