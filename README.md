@@ -6,7 +6,7 @@ Always dreamed of having donuts rain down on your website with the click of a bu
 
 ### Browser Support
 
-Unfortunately, this plug-in will __not__ work on FireFox. This is an issue with the jQuery CDN and I am unsure on how this can be fixed. Hopefully it will soon! However, the plug-in works perfectly on both Safari and Chrome browsers. 
+Firefox issues are fixed now! This plug-in should work on Chrome, Firefox, and IE. Let me know if things do not work and I'll try to fix it!
 
 ### What you will need:
 
@@ -40,7 +40,7 @@ From the "main.js" file included with the plug-in, copy and paste line 2 into th
 
 ```javascript
 $(function(){
-	bookApp.init(); //This is calling the main file's script
+	bookApp.init(); //This is calling your main file's script
 	$('button').donutRun(); //This is calling the plug-in script
 });
 ```
@@ -50,8 +50,6 @@ $(function(){
 * Replace the donut image files with your own! In line 14 of the "donut.js" file, change the image source to your files' names. Make sure the file names are similar (i.e. cupcake-01, cupcake-02, etc.) and form some sort of sequence (i.e. red, yellow, green, 1, 2, 3, etc.). In the donutClass variable, change the colour strings to match the sequence of your files. Do not alter the "randDonut[i]" value since this will randomize the sequence of the images each time they fall down the page. Make sure the images you use are transparent .png files.
 
 * Alter the speed of the images! In the "donut.css" file, under the "Donut Speeds and Indexes" section, feel free to alter the speed of the images using the webkit-animations provided. I recommend staying with speeds between 2.5 and 9 seconds.
-
-Enjoy! Feel free to fork this and change things around!
 
 
 
