@@ -172,6 +172,116 @@ button:hover {
 	}
 }
 
+@keyframes donut0 {
+	0% {
+		top: -30%;
+		left: 0%;
+	}
+	100% {
+		top: 100%;
+		left: 0%;
+	}
+}
+
+@keyframes donut1 {
+	0% {
+		top: -30%;
+		left: 10%;
+	}
+	100% {
+		top: 100%;
+		left: 10%;
+	}
+}
+
+@keyframes donut2 {
+	0% {
+		top: -30%;
+		left: 20%;
+	}
+	100% {
+		top: 100%;
+		left: 20%;
+	}
+}
+
+@keyframes donut3 {
+	0% {
+		top: -30%;
+		left: 30%;
+	}
+	100% {
+		top: 100%;
+		left: 30%;
+	}
+}
+
+@keyframes donut4 {
+	0% {
+		top: -30%;
+		left: 40%;
+	}
+	100% {
+		top: 100%;
+		left: 40%;
+	}
+}
+
+@keyframes donut5 {
+	0% {
+		top: -30%;
+		left: 50%;
+	}
+	100% {
+		top: 100%;
+		left: 50%;
+	}
+}
+
+@keyframes donut6 {
+	0% {
+		top: -30%;
+		left: 60%;
+	}
+	100% {
+		top: 100%;
+		left: 60%;
+	}
+}
+
+@keyframes donut7 {
+	0% {
+		top: -30%;
+		left: 70%;
+	}
+	100% {
+		top: 100%;
+		left: 70%;
+	}
+}
+
+@keyframes donut8 {
+	0% {
+		top: -30%;
+		left: 80%;
+	}
+	100% {
+		top: 100%;
+		left: 80%;
+	}
+}
+
+@keyframes donut9 {
+	0% {
+		top: -30%;
+		left: 90%;
+	}
+	100% {
+		top: 100%;
+		left: 90%;
+	}
+}
+
 .donut0,
 .donut1,
 .donut2,
